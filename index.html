@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>PVY Úkol</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <!DOCTYPE html>
+    </html>
+    <body>
+    <header>
+        <h1>
+            Příprava na praktickou prověrku
+        </h1>
+    </header>
+
+    <ul>
+        <li>
+            <a href="#text">Textové úpravy</a>
+        </li>
+        <li>
+            <a href="#tabulka">Tabulka</a>
+        </li>
+    </ul>
+    <h2 id="text">Textové úpravy</h2>
+    <h3>Adresy používané na internetu</h3>
+    <dl>
+        <dt><abbr title="Internet-Protocol-version-4">IPv4</abbr></dt>
+        <dd>
+            <li>příklad:122.102.122.2</li>
+            <li>IPv4 je čtvrtá revize internetového protokolu a zároveň jeho nejrozšířenější a nejznámější verzí. Je to datově orientovaný protokol, který slouží v sítích pro přepojování datových packetů, avšak je přepravuje bez záruky. Zajištění záruk závisí na vyšším protokolu, tzv. <abbr title="Transfer-control-protocol">TCP</abbr>.</li>
+            <li>V dnešní době se ale již přechází na IPv6, důvody jsou třeba vyšší rychlost a spolehlivější přenos multimediálních dat, a také vyčerpání adres IPv4, kterých je cca 4 miliardy.</li>
+        </dd>
+        <dt><abbr title="Internet-Protocol-version-6">IPv6</abbr></dt>
+        <dd>
+            <li>příklad: 2001:0db8:0000:0000:0000:0000:1428:57ab</li>
+            <li>IPv6 je nastupující mladší a lepší bratr IPv4. Oproti svému předchůdci nabízí masivně větší kapacitu adres a vysokorychlostní převody.</li>
+            <li>Obecně platí, že IPv6 je lehčí na používaní a mnohem lepší než IPv4.</li>
+            <li>IPv6 se zapisuje v osmi skupinách hexadecimálních čísel po čtyřech, díky čemuž má tak velkou kapacitu oproti IPv4.</li>
+        </dd>
+    </dl>
+    <h3>Seznam významných termínů a zkratek</h3>
+    <dl>
+        <dt><abbr title="HyperText-Markup-Language">HTML</abbr></dt>
+        <dd>
+            <li>HTML je název pro značkovací jazyk s hypertextovými odkazy.</li>
+            <li>Tento jazyk je určen pro tvorbu webových stránek na internetu. Poměrně často je doprovázen CSS (kaskádové styly) a jazykem JavaScript.</li>
+            <li>Za kontrolu a vývoj tohoto jazyka je zodpovědná <abbr title="World-Wide-Web-Consorcium">W3C</abbr>.</li>
+            <li>Tvůrci: Tim Berners-Lee a Robert Cailliau</li>
+        </dd>
+        <dt><abbr title="HyperText-Transfer-Protocol">HTTP</abbr></dt>
+        <dd>
+            V podstatě protokol pro předávání dat HTML (hypertextu), slouží tedy k náhledu na webové stránky, viz. https:// & http:// ("s" u https naznačuje že stránka je bezpečná - secure).
+        </dd>
+        <dt>Validátor</dt>
+        <dd>
+            <li>Kontroluje jestli váš ".html" soubour je napsán v souladu s pravidly <strong>W3C</strong>, pokud není ukáže vám "error" a  vypíše Vám kde a proč.</li>
+        </dd>
+        <dt>Server</dt>
+        <dd>
+            <li>Internetové servery se mohou nacházet snad absolutně kdekoliv, kde to podmínky dovolují, ale nejčastěji jsou někde pod dohledem, v místnosti s chlazením, v budově která je na to přímo postavená.</li>
+            <li>Servery mohou být používány třeba pro webhosting či virtualní stroje.</li>
+            <li>Webové servery: Poskytuje v síti internetu stránky WWW (World Wide Web).</li>
+            <li>Doménový server:(DNS) Obsahuje databázi domén a IP adres. Vlastně přeloží lidsky napsaný request do IP adresy webu, na který chce zákazník jít. Má pod správou doménu, třeba: .com, .org, .gov, .cz, atd..</li>
+        </dd>
+    </dl>
+    <h2 id="tabulka">Tabulka</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">
+                    Nečíslovaný seznam
+                </th>
+                <th colspan="2">
+                    Prvky stránky
+                </th>
+                <th rowspan="2">
+                    Obrázek (šířka 200 px)
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Značky
+                </th>
+                <th>
+                    Entity
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">
+                    <ul>
+                        <li>IP adresa</li>
+                        <li>Jmenná adresa</li>
+                        <li>URL</li>
+                    </ul>
+                </td>
+                <td>
+                    H<sub>2</sub>O
+                </td>
+                <td>
+                    &
+                </td>
+                <td rowspan="2">
+                    <figure>
+                        <img  class ="CoaCZ" src="Coat_of_arms_of_the_Czech_Republic.svg" alt="Velký znak České republiky">
+                    </figure>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    c = a<sup>2</sup> + b<sup>2</sup>
+                </td>
+                <td>
+                    &copy;
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>
+                    Odkaz
+                </th>
+                <th colspan="3">
+                    <a href="https://www.w3.org/" target="_blank">www.w3.org</a>
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <footer>
+        &copy <mark>Radim Šenk</mark>, <strong>IT1</strong>, <abbr title="Střední škola průmyslová a umělecká">SŠPU</abbr> Opava
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    margin-left:9% ;
+}
+th, td{
+    border: 2px solid grey;
+    background-color: white;
+}
+td{
+    border-collapse: separate;
+    border: 2px solid gray;
+}
+table{
+    border: 1px solid grey;
+}
+img.CoaCZ{
+    width: 200px;
+}
+th{
+    font-size: 15px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 23px;
+}
+h1{
+    margin-top: 5%;
+    font-size: 40px;
+}
+hr{
+    border-width: 50%;
+    width: 1000px;
+    margin-left: 0px;
+}
